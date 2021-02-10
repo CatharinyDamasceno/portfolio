@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes fadeIn{
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn{
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.fadeIn {
+    -webkit-animation: fadeIn 3s ease-in-out;
+    -moz-animation: fadeIn 3s ease-in-out;
+    -o-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
+}
+
+#slide1{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: 700px;
+    background-color: #000807
+    
+}
+
+#slide2{
+    max-width: 100%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EEEEFF;
+}
+
+#slide3{
+    max-width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000807;
+}
+
+#pic{
+    width: 330px;
+    height: 500px;
+    padding-bottom: 10px; 
+}
+
+#nome{
+    font-size: 45px;
+    color: #ffffff;
+    position: absolute;
+    top: 390px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#dev{
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    top: 470px;
+    font-family: 'Arvo', serif;
+}
+
+.social{
+    max-width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 540px;
+    transition: all 0.5s, ease-out;
+    border-radius: 60px;
+}
+
+.social:hover{
+    cursor: pointer;
+    transform: translateY(-12px);
+    box-shadow: 8px 30px 16px 0px rgba(50, 50, 50, 0.45)
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+#github{
+    position: absolute;
+    left: 510px;
+}
+
+#behance{
+    position: absolute;
+    right: 510px;
+}
+
+#titulo{
+    font-size: 40px;
+    font-family:  'Kaushan Script', cursive;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+#about{
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    margin-top: 110px;
+    margin-left: 60px;
+    line-height: 1.7;
+
+}
+
+#titulo2{
+    font-size: 40px;
+    font-family:  'Kaushan Script', cursive;
+    margin-top: 45px;
+    margin-left: 45px;
+    color: #ffffff;
+}
+
+#projeto1{
+    border-radius: 15px;
+    position: absolute;
+    bottom: 80px; 
+    background-color: #000807;  
+    border: 10px;
+    border-color: #000807;
+}
+
+.txt{
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Arvo', serif;
+    color: #ffffff;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 40px;
+}
+
